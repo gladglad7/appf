@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Finance App</string>
+
+    <!-- Bottom Navigation -->
+    <string name="home">Ana Sayfa</string>
+    <string name="transactions">İşlemler</string>
+    <string name="analysis">Analiz</string>
+    <string name="ai_coach">AI Koç</string>
+
+    <!-- Activity Titles -->
+    <string name="transaction_details">İşlem Detayları</string>
+    <string name="analysis_details">Analiz Detayları</string>
+    <string name="financial_education">Finansal Eğitim</string>
+
+    <!-- AI Coach Screen -->
+    <string name="recommendations">Öneriler</string>
+    <string name="education_content">Eğitim İçeriği</string>
+
+    <!-- Transaction Types -->
+    <string name="income">Gelir</string>
+    <string name="balance_label">Bakiye</string>
+    <string name="income_label">Gelir</string>
+    <string name="expense_label">Gider</string>
+
+    <!-- Common -->
+
+    <string name="cancel">İptal</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="amount">Tutar</string>
+    <string name="description">Açıklama</string>
+    <string name="date">Tarih</string>
+    <string name="category">Kategori</string>
+    <string name="total">Toplam</string>
+    <string name="balance">Bakiye</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_amount">Geçerli bir tutar giriniz</string>
+    <string name="error_empty_description">Açıklama boş olamaz</string>
+    <string name="error_loading_data">Veriler yüklenirken bir hata oluştu</string>
+
+    <!-- Success Messages -->
+    <string name="success_transaction_saved">İşlem başarıyla kaydedildi</string>
+    <string name="success_transaction_deleted">İşlem başarıyla silindi</string>
+
+    <!-- ... diğer string'ler ... -->
+    <string name="week">Hafta</string>
+    <string name="month">Ay</string>
+    <string name="year">Yıl</string>
+    <string name="expenses_distribution">Harcama Dağılımı</string>
+    <string name="expenses_over_time">Zaman İçinde Harcamalar</string>
+    <string name="expense_categories">Harcama Kategorileri</string>
+
+    <!-- ... diğer string'ler ... -->
+    <string name="tab_overview">Genel Bakış</string>
+    <string name="tab_detailed">Detaylı Analiz</string>
+    <string name="tab_graphs">Grafikler</string>
+
+    <string name="total_expense">Toplam Harcama</string>
+    <string name="highest_expense_category">En Yüksek Harcama Kategorisi</string>
+    <string name="default_amount">0.00 ₺</string>
+    <string name="default_category">-</string>
+
+    <!-- Transaction Activity -->
+    <string name="new_transaction">Yeni İşlem</string>
+    <string name="expense">Gider</string>
+    <string name="amount_hint">Tutar</string>
+    <string name="category_hint">Kategori</string>
+    <string name="note_hint">Not</string>
+    <string name="save">Kaydet</string>
+
+    <!-- Content Descriptions -->
+    <string name="expense_button_desc">Gider işlemi seç</string>
+    <string name="income_button_desc">Gelir işlemi seç</string>
+    <string name="category_input_desc">Kategori seçimi</string>
+    <string name="save_button_desc">İşlemi kaydet</string>
+
+    <string-array name="expense_categories">
+        <item>Market</item>
+        <item>Ulaşım</item>
+        <item>Sağlık</item>
+        <item>Eğitim</item>
+        <item>Eğlence</item>
+        <item>Faturalar</item>
+        <item>Diğer</item>
+    </string-array>
+</resources>

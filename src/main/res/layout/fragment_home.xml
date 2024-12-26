@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/balance_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBalanceAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0.00 ₺"
+        app:layout_constraintStart_toStartOf="@id/tvBalance"
+        app:layout_constraintTop_toBottomOf="@id/tvBalance" />
+
+    <TextView
+        android:id="@+id/tvIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/income_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBalanceAmount" />
+
+    <TextView
+        android:id="@+id/tvIncomeAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0.00 ₺"
+        app:layout_constraintStart_toStartOf="@id/tvIncome"
+        app:layout_constraintTop_toBottomOf="@id/tvIncome" />
+
+    <TextView
+        android:id="@+id/tvExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/expense_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvIncomeAmount" />
+
+    <TextView
+        android:id="@+id/tvExpenseAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0.00 ₺"
+        app:layout_constraintStart_toStartOf="@id/tvExpense"
+        app:layout_constraintTop_toBottomOf="@id/tvExpense" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
